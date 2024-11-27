@@ -1,0 +1,78 @@
+<!-- Page 2: Message -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Love for You</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(to right, #ff6f61, #fde68a);
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            text-align: center;
+            animation: fadeIn 3s ease-in-out;
+        }
+        h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 1.2em;
+            line-height: 1.8;
+            margin-bottom: 20px;
+        }
+        .love-message {
+            font-size: 2em;
+            font-weight: bold;
+            margin: 20px 0;
+            color: #ffecd2;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+        }
+        button {
+            font-size: 1.5em;
+            padding: 15px 30px;
+            background-color: #fd7e14;
+            color: white;
+            border: none;
+            border-radius: 30px;
+            cursor: pointer;
+            transition: transform 0.2s, background-color 0.3s;
+        }
+        button:hover {
+            background-color: #fa6400;
+            transform: scale(1.1);
+        }
+        @keyframes fadeIn {
+            0% { opacity: 0; transform: translateY(20px); }
+            100% { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Dear Tanha,</h1>
+        <p>
+            From the moment I met you, my life changed for the better. <br>
+            Your smile brightens my darkest days, and your love gives me strength.<br>
+            I promise to cherish you, stand by your side, and love you endlessly.<br>
+        </p>
+        <p class="love-message">I love you, Tanha! ❤️</p>
+        <button onclick="nextPage()">Next</button>
+    </div>
+
+    <script>
+        function nextPage() {
+            window.location.href = 'page3.html';
+        }
+    </script>
+</body>
+</html>
